@@ -962,8 +962,8 @@ cd ../
 #cd ../
 
 # php extensions
-#sed -i 's#; extension_dir = "./"#extension_dir = "/usr/local/php70/lib/php/extensions/no-debug-non-zts-20170718/"\nextension = "memcache.so"\n#' /usr/local/php70/etc/php.ini
-sed -i 's#;extension_dir = "./"#extension_dir = "/usr/local/php74/lib/php/extensions/no-debug-non-zts-20190902/"\nextension = "memcache.so"\nextension = "redis.so"\nextension = "zip.so"\n#' /usr/local/php70/etc/php.ini
+#sed -i 's#; extension_dir = "./"#extension_dir = "/usr/local/php70/lib/php/extensions/no-debug-non-zts-20151012/"\nextension = "memcache.so"\n#' /usr/local/php70/etc/php.ini
+sed -i 's#;extension_dir = "./"#extension_dir = "/usr/local/php74/lib/php/extensions/no-debug-non-zts-20151012/"\nextension = "memcache.so"\nextension = "redis.so"\nextension = "zip.so"\n#' /usr/local/php70/etc/php.ini
 #sed -i 's#output_buffering = Off#output_buffering = On#' /usr/local/php70/etc/php.ini
 sed -i 's/expose_php = On/expose_php = Off/g' /usr/local/php70/etc/php.ini
 #sed -i 's@^request_order.*@request_order = "CGP"@' /usr/local/php70/etc/php.ini
